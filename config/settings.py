@@ -2,11 +2,13 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'dev-only-secret-key-change-in-production'
+SECRET_KEY = 'secret-bem-secreto-commitado-no-github'
 
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+
+ROOT_URLCONF = 'config.urls'
 
 INSTALLED_APPS = [
     'django.contrib.contenttypes',
