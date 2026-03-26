@@ -29,5 +29,9 @@ target-version = "py312"
 quote-style = "single"
 indent-style = "space"
 
+[tool.ruff.lint]
+select = ["E", "F", "I", "Q"]
+exclude = ["app/migrations/*"]
+
 [tool.ruff.lint.flake8-quotes]
 inline-quotes = "single"
