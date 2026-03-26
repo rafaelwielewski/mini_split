@@ -107,4 +107,4 @@ Usei IA como apoio para levantar casos de borda no algoritmo de distribuição d
 
 ## PR
 
-[feature/payment-split-ledger → main](#)
+[feature/payment-split-ledger → main](https://github.com/rafaelwielewski/mini_split/pull/1)
